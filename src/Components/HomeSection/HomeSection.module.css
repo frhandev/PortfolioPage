@@ -1,0 +1,123 @@
+.HomeSection {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 70%;
+    padding: 0;
+    margin: 0 15%;
+    color: #070013;
+    min-height: 100vh;
+}
+
+.myImage {
+    width: 400px;
+    border-radius: 50%;
+    box-shadow: 0 0 10px #787878;
+    transition: 0.3s ease-in-out;
+    border: 0.5px solid #000;
+}
+
+.myImage:hover {
+    box-shadow: 0 0 50px #787878;
+}
+
+.myImageContainer {
+    width: 50%;
+    text-align: right;
+}
+
+.myInfo {
+    width: 50%;
+    padding: 20px;
+}
+
+
+.myInfo h3{
+    font-size: 1.7em;
+    text-transform: uppercase;
+}
+
+.myInfo > p > span {
+    color: #1b015c;
+    font-weight: 700;
+    font-size: 1.8em;
+    text-transform: uppercase;
+    transition: 0.2s ease-in-out;
+}
+
+.myInfo > p > span:hover {
+    background: none;
+    text-shadow: 2px 5px 0px #523e85;
+}
+
+.myInfo p {
+    font-size: 2em;
+}
+
+.skillsContainer {
+    width: 50%;
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.skillIcon {
+    width: 40px;
+    transition: 0.2s ease-in-out;
+}
+
+
+.skillIcon:hover {
+    padding-bottom: 30px;
+}
+
+
+.socialIcon {
+    width: 25px;
+    transition: 0.2s ease-in-out;
+    border-radius: 50%;
+}
+
+.socialIcon:hover {
+    padding-bottom: 30px;
+}
+
+
+@media (max-width: 768px) {
+    body {
+        font-size: 10px;
+    }
+
+    .HomeSection {
+        flex-direction: column-reverse;
+        justify-content: center;
+        margin: 0;
+        text-align: center;
+        width: 100%;
+    }
+
+    .myImage {
+        margin-top: 80px;
+        width: 90%;
+    }
+
+    .myImageContainer {
+        width: 80%;
+        text-align: center;
+    }
+
+    .myInfo {
+        width: 80%;
+    }
+
+    .myInfo h3 {
+        font-size: 2em;
+    }
+
+    .skillsContainer {
+        width: 100%;
+        justify-content: center;
+        gap: 20px;
+    }
+}
