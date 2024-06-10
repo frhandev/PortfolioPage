@@ -3,6 +3,11 @@ import linkedin from './SocialIcons/linkedin.png'
 import instagram from './SocialIcons/instagram.png'
 import github from './SocialIcons/github.png'
 import youtube from './SocialIcons/youtube.png'
+import me from './Me.jpeg'
+import html from './SkillsIcons/html.png'
+import css from './SkillsIcons/social.png'
+import js from './SkillsIcons/js.png'
+import react from './SkillsIcons/physics.png'
 
 function HomeSection() {
     return(
@@ -17,14 +22,14 @@ function HomeSection() {
                 <a href="https://www.instagram.com/mohammad_farhan53/"><img className={styles.skillIcon} src={instagram} alt="linkedin" /></a>
                 </div>
                 <div className={styles.skillsContainer}>
-                    <img className={styles.skillIcon} src="../src/assets/SkillsIcons/html.png" alt="htmlLogo" />
-                    <img className={styles.skillIcon} src="../src/assets/SkillsIcons/social.png" alt="cssLogo" />
-                    <img className={styles.skillIcon} src="../src/assets/SkillsIcons/js.png" alt="jsLogo" />
-                    <img className={styles.skillIcon} src="../src/assets/SkillsIcons/physics.png" alt="reactLogo" />
+                    <img className={styles.skillIcon} src={html} alt="htmlLogo" />
+                    <img className={styles.skillIcon} src={css} alt="cssLogo" />
+                    <img className={styles.skillIcon} src={js} alt="jsLogo" />
+                    <img className={styles.skillIcon} src={react} alt="reactLogo" />
                 </div>
             </div>
             <div className={styles.myImageContainer}>
-                <img className={styles.myImage} src="../src/assets/me.jpeg" alt="me" />
+                <img className={styles.myImage} src={me} alt="me" />
             </div >
         </section>
     );
