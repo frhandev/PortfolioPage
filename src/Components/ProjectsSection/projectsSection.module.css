@@ -28,11 +28,12 @@ h1:hover {
 
 .projectCardContainer {
     width: 60%;
-    margin: 150px 20% 0;
+    margin: 50px 20% 0;
     display: flex;
     justify-content: space-around;
     align-items: center;
     flex-wrap: wrap;
+    overflow: hidden;
 }
 
 .projectContainer {
